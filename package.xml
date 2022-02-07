@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Account.BU_Application_2__c</members>
+        <members>Account.GKAM_Comment__c</members>
         <name>CustomField</name>
     </types>
     <types>

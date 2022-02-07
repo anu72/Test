@@ -14,6 +14,10 @@
             <valueSetName>BU_application_2_values</valueSetName>
             <valueSettings>
                 <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>AUTOMOTIVE PART/COMPOUNDING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
                 <valueName>FOAM</valueName>
             </valueSettings>
             <valueSettings>
@@ -34,11 +38,27 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>ARTIFICIAL TURF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
                 <valueName>BITUMEN</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
-                <valueName>CABLE</valueName>
+                <valueName>EMULSION &amp; DISPERSION</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>FILMS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>FLOORS &amp; COMPOSITES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>GLASS</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
@@ -46,11 +66,27 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>MINING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
                 <valueName>PIPE &amp; TUBE</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>POWDER COATING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
                 <valueName>PV PANEL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>WIRE &amp; CABLE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>ASEPTIC</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
@@ -62,11 +98,11 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
-                <valueName>HOT MEL ADHESIVE</valueName>
+                <valueName>INKS</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
-                <valueName>INKS</valueName>
+                <valueName>MEDICAL</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
@@ -86,8 +122,24 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>MASTER BATCH PRODUCTION</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
                 <valueName>RECYCLING</valueName>
             </valueSettings>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>GKAM_Comment__c</fullName>
+        <description>R1-R-0013-This field is used to indicate the priority of account.
+PSR-000304 - Rename this field by &quot;GKAM Comment&quot;</description>
+        <externalId>false</externalId>
+        <label>GKAM Comment</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
     </fields>
 </CustomObject>
